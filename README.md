@@ -12,16 +12,8 @@
 # Dependencias necessarias para a visualização do projeto:
 
     bcryptjs -> Necessaria para criptografar senhas e afins.
-
-    connect-flash -> Utilizado para mandar mensagens ao usuario.
-
-    cookie-parser -> Cookies são arquivos/dados simples e pequenos que são enviados ao cliente.
-
-    cookie-session -> Armazena dados da sessão do cliente dentro de um cookie.
-
+    
     express -> Usado para a criação de servidores web.
-
-    express-flash -> Usados para mensagem flash do formulario.
 
     express-handlebars -> Para modelagem geral.
 
