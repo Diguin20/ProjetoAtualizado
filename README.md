@@ -10,6 +10,7 @@
 
 
 # Dependencias necessarias para a visualização do projeto:
+    Como instalar: (npm install + "o nome da dependência") no seu terminal com o direito do arquivo Index
 
     bcryptjs -> Necessaria para criptografar senhas e afins.
 
