@@ -3,14 +3,10 @@
 
     O projeto consiste no controle financeiro do usuario, nele é possivel acrescentar valores de receita ou retirar para despesas. Além de mostrar todo o historico das transações feitas pelo cliente.
 
-# Paleta de cores em HEXCDECIMAL:
-    #400101
-    #CF4526
-    #612940
-    #DB7396
-    #D9C1D0
-    #DBC5BD
-    #EFE6EC
+    aplicação totalmente responsiva
+
+# banco de dados
+    Necessario criar um banco de dados chamado "financial" no mysql.
 
 
 # Dependencias necessarias para a visualização do projeto:
@@ -39,13 +35,11 @@
 
     session-file-store -> Armazenar dados de um usuario a um arquivo.
 
-# banco de dados
-    Necessario criar um banco de dados chamado "financial" no mysql.
 
 # Organização das pastas
 
 # Controllers
-    TransactionController.js --> responsavel por toda a criação da tabela de transações, e onde é feito o calculo das despesa e receitas de cada úsuario.
+    TransactionController.js --> responsavel por toda a criação da tabela de transações, e onde é feito o calculo das despesa e receitas de cada úsuario, assim como o historico de transações.
 
     UserController.js --> responsavel por toda a criação dos usuarios desde cadastro a verificação do login.
 
@@ -70,3 +64,23 @@
 
 # views
     paginas handlebars utilizadas no projeto.
+
+    # authentication
+        pasta onde se encontram o HTML das paginas de login e registro
+
+    # dashboard
+       pasta onde se encontram os HTML das paginas para acerscentar receitas, fazer as despesas, e verificar o historico. 
+
+    # layouts
+        pasta onde se encontra o HTML do arquivo main.
+        
+
+
+# Paleta de cores em HEXCDECIMAL:
+    #400101
+    #CF4526
+    #612940
+    #DB7396
+    #D9C1D0
+    #DBC5BD
+    #EFE6EC
